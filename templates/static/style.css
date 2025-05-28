@@ -1,0 +1,115 @@
+/* General */
+body, html {
+  height: 100%;
+  margin: 0;
+  background: #f1f1f1;
+  font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+}
+
+.chat {
+  margin-top: 30px;
+}
+
+/* Card Styling */
+.card {
+  height: 600px;
+  border-radius: 15px;
+  box-shadow: 0 4px 8px rgba(0,0,0,0.1);
+  border: none;
+}
+
+/* Header */
+.msg_head {
+  background-color: #007bff;
+  color: white;
+  padding: 15px;
+  border-top-left-radius: 15px;
+  border-top-right-radius: 15px;
+}
+
+.user_info span {
+  font-size: 18px;
+  font-weight: bold;
+}
+
+.user_info p {
+  margin: 0;
+  font-size: 12px;
+  color: #e0e0e0;
+}
+
+/* Image */
+.img_cont img.user_img {
+  border: 2px solid white;
+}
+
+/* Chat body */
+.msg_card_body {
+  background: white;
+  overflow-y: auto;
+  padding: 15px;
+  height: 450px;
+}
+
+/* Message styling */
+.outgoing_msg, .incoming_msg {
+  margin: 10px 0;
+  display: block;
+  clear: both;
+}
+
+.outgoing_msg .msg_text {
+  background: #007bff;
+  color: white;
+  padding: 10px 15px;
+  border-radius: 20px;
+  max-width: 70%;
+  float: right;
+}
+
+.incoming_msg .msg_text {
+  background: #e4e6eb;
+  color: black;
+  padding: 10px 15px;
+  border-radius: 20px;
+  max-width: 70%;
+  float: left;
+}
+
+/* Footer */
+.card-footer {
+  padding: 10px 15px;
+  border-top: 1px solid #ccc;
+  background: #f8f9fa;
+  border-bottom-left-radius: 15px;
+  border-bottom-right-radius: 15px;
+}
+
+.input-group .form-control.type_msg {
+  height: 50px;
+  border-radius: 20px;
+  border: 1px solid #ccc;
+  padding-left: 20px;
+  font-size: 16px;
+}
+
+.input-group .send_btn {
+  background: #007bff;
+  color: white;
+  padding: 10px 20px;
+  border-radius: 20px;
+  cursor: pointer;
+  transition: background 0.3s;
+}
+
+.input-group .send_btn:hover {
+  background: #0056b3;
+}
+
+/* Typing indicator */
+.typing-indicator {
+  font-style: italic;
+  font-size: 13px;
+  color: #888;
+  margin-left: 5px;
+}
